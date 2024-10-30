@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/myonl/IdeaProjects/testNGFramework/src/test/java/pages">
         <classes>
-            <class name="testCases.loginTest"></class>
+            <class name="testCases.logintTest"></class>
         </classes>
     </test>
 

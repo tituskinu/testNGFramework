@@ -8,6 +8,7 @@ import utils.CommonMethods;
 import java.util.List;
 
 public class EmployeeSearchPage extends CommonMethods {
+
     @FindBy(id="menu_pim_viewPimModule")
     public WebElement pimOption;
 
@@ -34,6 +35,5 @@ public class EmployeeSearchPage extends CommonMethods {
     public EmployeeSearchPage(){
         PageFactory.initElements(driver, this);
     }
-
 
 }

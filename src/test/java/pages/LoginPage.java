@@ -28,7 +28,6 @@ public class LoginPage extends CommonMethods {
         PageFactory.initElements(driver, this);
     }
 
-
     public void LoginMethod(String username , String password){
         sendText(usernameBox,username);
         sendText(passwordBox,password);

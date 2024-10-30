@@ -17,6 +17,4 @@ public class PageInitializer {
         addEmployeePage = new AddEmployeePage();
         dash = new DashboardPage();
     }
-
-
 }

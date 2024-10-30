@@ -5,12 +5,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.CommonMethods;
 
-public class loginTest extends CommonMethods {
+public class logintTest extends CommonMethods {
     /*
-     tescase 1:
-     login into the applicaiton
-     verify the message Welcome Admin
-      */
+    tescase 1:
+    login into the applicaiton
+    verify the message Welcome Admin
+     */
     @Test
     public void loginTest(){
         sendText(login.usernameBox,"Admin");
@@ -49,5 +49,4 @@ public class loginTest extends CommonMethods {
         Assert.assertEquals(ActualError,errorMsg);
 
     }
-
 }
